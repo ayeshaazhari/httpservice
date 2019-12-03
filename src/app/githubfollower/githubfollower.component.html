@@ -1,0 +1,20 @@
+
+<div class="container mt-5">
+        <h1 class="mx-0">Github Followers</h1>
+        <hr size="4px">
+<ul class="mx-0">
+    <li *ngFor = "let follower of followers">
+        <!-- {{ follower.avatar_url}} -->
+        <div>
+        <img src= "{{ follower.avatar_url }}" class="profilepic">
+        </div>
+        <div class="info">
+        <span class="name">{{ follower.login}}</span><br>
+        <span class="fid">ID: {{ follower.id}}</span>
+        </div>
+        <div class="sharebtn">
+        <button class=" btn btn-danger">Share</button>
+        </div>
+    </li>
+</ul>
+</div>

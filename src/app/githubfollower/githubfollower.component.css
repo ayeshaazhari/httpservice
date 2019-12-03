@@ -1,0 +1,39 @@
+.profilepic {
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid rgb(165, 163, 163, 0.5);
+}
+
+hr{
+    background: greenyellow;
+}
+
+.info {
+    margin: 0px 9px;
+
+}
+
+.name {
+    font-weight: bolder;
+}
+
+.sharebtn {
+    margin-left: auto;
+}
+
+.fid {
+    color: rgb(167, 164, 164,0.5);
+    font-size: 14px;
+}

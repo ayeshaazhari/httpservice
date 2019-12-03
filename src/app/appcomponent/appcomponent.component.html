@@ -1,0 +1,12 @@
+<p>Create </p>
+<input type="text" [(ngModel)] ="post" placeholder="title" (keyup.enter)="createPost()">
+
+<ul>
+    <li *ngFor = "let post of posts">
+        {{ post.title }} 
+        <button (click)="updateData(post)">Update</button>
+        <button (click)="deleteData(post)"> Delete </button>
+    </li>
+</ul>
+
+
